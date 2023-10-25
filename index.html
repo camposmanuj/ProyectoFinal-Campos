@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PreEntrega 3 Campos</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <img class="sony-logo" src="./imgs/sony-logo-white-1.webp" alt="" />
+        <input type="search" placeholder="Buscar..." />
+      </div>
+    </header>
+
+    <main>
+      <h1 class="main-title">Productos Destacados</h1>
+      <div class="products-container">
+        <div class="product-card">
+          <img src="./imgs/sony-alpha-7iii.webp" alt="Producto" />
+          <h2>Camara Sony Alpha7 Mark IV</h2>
+          <p>
+            La Sony A7 IV es una cámara sin espejo de fotograma completo que es
+            ideal para fotografía y videografía. Gracias a sus 33 megapíxeles,
+            la calidad de imagen de la cámara es excelente. Para las grabaciones
+            de vídeo, dispones de calidad 4K en 60p
+          </p>
+          <p class="price">$2449.90</p>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./imgs/sony-24-70mm-kit.webp" alt="Producto" />
+          <h2>Objetivo Sony 28-70mm F 3.5-5.6</h2>
+          <p>
+            Full Frame. Montura tipo E. Imagen de fotograma completo de 35 mm.
+            Tecnología avanzada de lentes asféricas. Elemento de cristal de
+            dispersión ultrabaja. Estabilización de imagen SteadyShot óptica.
+            Apertura circular de 7 láminas
+          </p>
+          <p class="price">$299.90</p>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./imgs/sony-85mm.webp" alt="Producto" />
+          <h2>Objetivo Sony 85mm F 1.8</h2>
+          <p>
+            Lente con montura E / Formato Full frame. Apertura máxima f/1,8.
+            Apertura mínima f/16. Revestimiento múltiple de súper baja
+            reflexión. Tamaño del filtro 72 mm
+          </p>
+          <p class="price">$499.90</p>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="cart-container">
+        <div class="cart">
+          <div id="message-container"></div>
+          <h2>Carrito de Compras</h2>
+          <ul class="cart-items">
+            <!-- Los elementos del carrito se van agregando acá con JavaScript -->
+          </ul>
+          <p class="cart-total">Total: $0.00</p>
+          <button class="checkout">Finalizar Compra</button>
+          <button class="clear-cart">Vaciar Carrito</button>
+        </div>
+      </div>
+      <div class="contact-form-container">
+        <h2>Información de Envío</h2>
+        <form id="contact-form">
+          <label for="first-name">Nombre:</label>
+          <input type="text" id="first-name" required />
+
+          <label for="last-name">Apellido:</label>
+          <input type="text" id="last-name" required />
+
+          <label for="street">Calle:</label>
+          <input type="text" id="street" required />
+
+          <label for="city">Ciudad:</label>
+          <input type="text" id="city" required />
+
+          <label for="state">Provincia:</label>
+          <input type="text" id="state" required />
+
+          <label for="country">País:</label>
+          <input type="text" id="country" required />
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" required />
+
+          <label for="phone">Número Telefónico:</label>
+          <input type="tel" id="phone" required />
+
+          <button type="submit">Finalizar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

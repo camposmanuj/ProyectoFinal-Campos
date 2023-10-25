@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Camara Sony Alpha7 Mark IV",
+    "descripcion": "La Sony A7 IV es una cámara sin espejo de fotograma completo que es ideal para fotografía y videografía. Gracias a sus 33 megapíxeles, la calidad de imagen de la cámara es excelente. Para las grabaciones de vídeo, dispones de calidad 4K en 60p",
+    "precio": 2449.90,
+    "imagenSrc": "./imgs/sony-alpha-7iii.webp"
+  },
+  {
+    "nombre": "Objetivo Sony 28-70mm F 3.5-5.6",
+    "descripcion": "Full Frame. Montura tipo E. Imagen de fotograma completo de 35 mm. Tecnología avanzada de lentes asféricas. Elemento de cristal de dispersión ultrabaja. Estabilización de imagen SteadyShot óptica. Apertura circular de 7 láminas",
+    "precio": 299.90,
+    "imagenSrc": "./imgs/sony-24-70mm-kit.webp"
+  },
+  {
+    "nombre": "Objetivo Sony 85mm F 1.8",
+    "descripcion": "Lente con montura E / Formato Full frame. Apertura máxima f/1,8. Apertura mínima f/16. Revestimiento múltiple de súper baja reflexión. Tamaño del filtro 72 mm",
+    "precio": 499.90,
+    "imagenSrc": "./imgs/sony-85mm.webp"
+  }
+]
